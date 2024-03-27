@@ -1,0 +1,153 @@
+/*GENERAL*/
+
+html * {
+    scroll-behavior: smooth;
+    scroll-padding: 150px;
+}
+
+body * {
+    font-family: "Raleway", sans-serif;
+}
+
+/*MENU*/
+#menu {
+    text-decoration-color: white;
+    background-color: rgb(89, 184, 187);
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+/*CARRUSEL*/
+#carouselExampleIndicator {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
+#carouselExampleIndicator .carousel-inner img {
+    height: 1100px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/*SECCIÓN QUIENES SOMOS*/
+
+#sectionquienessomos {
+    background-color: black;
+    padding: 50px;
+    padding-top: 130px;
+    margin-top: -60px;
+}
+
+.container-section2 p {
+    color: white;
+}
+
+#iconoquienes {
+    background-color: rgb(89, 184, 187);
+}
+
+.centrado-texto {
+    text-align: center;
+}
+
+#sectionquienessomos .parrafos {
+    padding: 40px;
+}
+
+
+/*CARDS*/
+
+#sectiondestacados {
+    background-color: black;
+    padding: 3%;
+    padding-top: 5%;
+    margin-top: -5%;
+}
+
+.container-section3 {
+    background-color: black;
+}
+
+.container-section3 #tarjetas {
+    padding: 30px;
+}
+
+.card-body {
+    background-color: rgb(89, 184, 187);
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+/*FORMULARIO*/
+
+.container-form {
+    padding: 50px;
+    background-color: black;
+    text-decoration-color: white;
+}
+
+.container-form button {
+    background-color: rgb(89, 184, 187);
+    border-color: rgb(89, 184, 187);
+}
+
+.form-label {
+    color: white;
+}
+
+
+
+/*COMPARTIDAS*/
+
+
+.titulo {
+    /*h2 de cada sección*/
+    border-bottom: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-justify: auto;
+    text-align: center;
+    color: white;
+}
+
+#separacion {
+    /*hr*/
+    border-color: gray;
+    border-width: 5px;
+    width: 90%;
+    height: 5px;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: rgb(89, 184, 187);
+}
+
+footer #text-foot {
+    text-align: center;
+    color: white;
+}
+
+footer #Iconos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration-color: white;
+}
+
+#redes {
+    color: white;
+}
